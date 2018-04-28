@@ -1,0 +1,10 @@
+.colotFooter{
+    padding: 5px 3px 5px 3px;
+    background-color: #282d31;
+    text-align: center;
+}
+p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+}

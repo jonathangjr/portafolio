@@ -1,0 +1,31 @@
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark navb">
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/jv2.png" style="border-radius: 5px;" width="30" height="30" alt="">
+    JR
+  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <li class="nav-item" routerLinkActive="active" >
+          <a class="nav-link" [routerLink]="['home']" >Home</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active" >
+          <a class="nav-link" [routerLink]="['sobre-mi']" >Sobre mi</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active" >
+          <a class="nav-link" [routerLink]="['habilidades']" >Habilidades</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active" >
+          <a class="nav-link" [routerLink]="['proyectos']" >Proyectos</a>
+        </li>
+        <li class="nav-item" routerLinkActive="active" >
+          <a class="nav-link" [routerLink]="['contacto']" >Contacto</a>
+        </li>
+
+      </ul>
+    </div>
+</nav>
